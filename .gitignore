@@ -1,0 +1,10 @@
+# Ignorar configurações locais com senhas
+.streamlit/
+secrets.toml
+
+# Ignorar banco de dados local (ele será criado no servidor)
+rastreios.json
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
