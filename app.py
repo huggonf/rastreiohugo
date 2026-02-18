@@ -72,7 +72,7 @@ def main():
     st_autorefresh(interval=60000, key="bot_refresh") # 1 minuto
 
     st.title("🚚 Monitor de Rastreio (Modo Teste)")
-    st.markdown('<a href="" target="_blank">Rastreamento</a>', unsafe_allow_html=True)
+    st.markdown('<a href="https://www.siterastreio.com.br/" target="_blank">Rastreamento</a>', unsafe_allow_html=True)
 
     # --- VALIDAÇÃO DE CHAVES NA TELA ---
     with st.expander("🔍 Status das Chaves (Clique para ver)", expanded=True):
@@ -153,3 +153,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
